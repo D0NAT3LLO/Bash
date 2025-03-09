@@ -1,0 +1,86 @@
+Vim Crash Course (Session 5)
+(i) Insert from current cursor
+(o) append new line
+(I) append from the begining
+(v) Visual mode -> $ select till the end of the line -> y (yank) copy -> p paste -> u Undo
+(A) append from the end of the line 
+#Editing 
+dd delete line 
+yy yank = copy 
+P paste before current line x delete current cursor u undo
+ctrl + r redo
+#Navigation
+hjkl
+gg start of file
+G end of file
+ctrl + d
+ctrl + u
+H top of screen
+M middle of screen
+L bottom
+0 starting of line
+$ end of line  
+{ #move to next curly bracket -> %
+(   ) #as well as {   } #as well as
+}
+:set number :10j 
+number + whatever <command><shortcut>
+w next word
+b backward work
+3w... 3b.. 3dd...
+>> tab 
+<< reverse tab
+#Change
+c$ change $ end of the line
+cw change word
+c2w change 2 word
+ciw change in word
+ci"
+#Replace
+R replace Mode
+r replace character
+
+#Search
+/search
+f <char> find
+t <char> tell
+
+. repeat last command
+"MOSTAFA YOUSSEF AMMAR"
+
+#VISUAL MODE
+v visual mode 
+ctrl + v visual block
+shift + v visual line 
+v i b () -> select what's inside  brackets
+v i B {}
+vat <>
+vit <  >
+
+vab 
+vaB
+
+(Dataaaaaa)
+constant char *ptr ="MOSTAFA YOUSSEF AMMAR"
+constant char *ptr ="MOSTAFA YOUSSEF AMMAR"
+constant char *ptr ="MOSTAFA YOUSSEF AMMAR"
+
+#macro
+:q<char> -> recording steps... ->q
+@a --> execute steps... -> 5@a (<number>@a)
+"MOSTAFAAAA Ammar"
+"MOSTAFAAAA Ammar"
+
+#commands
+#replace->  :%s/<word in file>/<new word>
+:ls
+:bp  :np
+:e -->open file
+
+
+
+
+
+
+
+
